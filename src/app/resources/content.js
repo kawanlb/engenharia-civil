@@ -72,7 +72,7 @@ const about = {
     title: "Introdução",
     description: (
       <>
-Kerollym é estudante de Engenharia Civil na Universidade Federal Rural de Pernambuco (UFRPE), com paixão por projetar e otimizar projetos estruturais. Seu trabalho foca em soluções inovadoras para a construção civil, sustentabilidade e na integração de tecnologia na engenharia.      </>
+Olá, me chamo Kerollym, sou estudante de Engenharia Civil na Universidade Federal Rural de Pernambuco (UFRPE), com paixão por projetar e otimizar projetos estruturais. Meu Estudo foca em soluções inovadoras para a construção civil, sustentabilidade e na integração de tecnologia na engenharia.      </>
     ),
   },
   work: {
@@ -139,20 +139,24 @@ Kerollym é estudante de Engenharia Civil na Universidade Federal Rural de Perna
     skills: [
       {
         title: "Ravit",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Capaz de criar modelos 3D detalhados de edifícios que incluem informações sobre o design, construção e operação da estrutura.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/planta.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+        //images: [
+         // {
+          //  src: "/images/projects/project-01/planta.jpg",
+           // alt: "Project image",
+            //width: 16,
+            //height: 9,
           },
+          {
+            title: "AutoCAD",
+            description: <>Software de projeto assistido por computador (CAD) que permite criar e editar desenhos 2D e 3D.</>,
+          }
         ],
       },
       
-    ],
-  },
+  //  ],
+  //},
 };
 
 const blog = {
